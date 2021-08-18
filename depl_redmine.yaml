@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deployment-redmine
+  name: dep-redmine
 spec:
   replicas: 1
   strategy:
